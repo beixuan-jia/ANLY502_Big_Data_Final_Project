@@ -10,3 +10,14 @@ http://data.gdeltproject.org/documentation/GDELT-Global_Knowledge_Graph_Codebook
 http://data.gdeltproject.org/documentation/CAMEO.Manual.1.1b3.pdf
 
 ## Project Description:  
+**GDELT 2.0 EVENT DATABASE**
+* Type: Event Data
+* Time Range: 1979 – Present
+* Update Interval: Every 15 minutes
+* Source: Worldwide news coverage in 100 languages, 65 are live machine translated at 100% volume
+* Vision: codify the entire planet into a computable format using all available open information sources that provides a new platform for understanding the global world
+
+Dataset we used:
+* Time Span: All news in GDELT 2.0 Event Database archived in 2016
+* Dimensions: 58 variables x 73,385,698 records
+* What we have done: exploratory data analysis, clustering & modeling to predict tone of each event
