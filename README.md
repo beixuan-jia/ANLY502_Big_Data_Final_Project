@@ -78,7 +78,7 @@ The following tables, Table 3.1.2 and Table 3.1.3, display the top 10 news that 
 
 Table 3.1.2 Top 10 news that have the most positive tones in 2016
 
-![](images/3.1.3.jpg)
+![](images/3.1.3.png)
 
 Table 3.1.3 Top 10 news that have the most negative tones in 2016
 
