@@ -236,9 +236,13 @@ Another possible future work is looking for a variable that is more accurate tha
 
 ## 5. References
 
-Boudemagh, Moise (2017). News Media Coverage of Refugees in 2016: A GDELT Case Study. AAAI Technical Report WS-17-17: News and Public Opinion. Retrieved from: https://www.aaai.org/ocs/index.php/ICWSM/ICWSM17/paper/download/15778/14897
+Boudemagh, Moise (2017). News Media Coverage of Refugees in 2016: A GDELT Case Study. *AAAI Technical Report WS-17-17: News and Public Opinion*. Retrieved from: 
+ https://www.aaai.org/ocs/index.php/ICWSM/ICWSM17/paper/download/15778/14897
 
-Robinson, P. 2001. Theorizing the influence of media on world politics models of media influence on foreign policy. European Journal of Communication 16(4):523–544.
+Sides, J. (2013, July 9). *How Computers Can Help Us Track Violent Conflicts — Including Right Now in Syria*. Monkey Cage.
+ https://themonkeycage.org/2013/07/how-computers-can-help-us-track-violent-conflicts-including-right-now-in-syria/
+
+Robinson, P. 2001. Theorizing the influence of media on world politics models of media influence on foreign policy. *European Journal of Communication 16(4):523–544*
 
 ## 6. Division of Labor
 
