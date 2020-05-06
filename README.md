@@ -251,9 +251,12 @@ Robinson, P. 2001. Theorizing the influence of media on world politics models of
 
 # 7. Division of Labor
 
-Beixuan Jia: Exploratory Data Analysis and report write-Tup
+Beixuan Jia: Exploratory Data Analysis and report write-up
+
 Xin Lu: data retrieval, data cleansing and report write-up
+
 Miao Wang: Model construction such as decision tree, random forest and logistic regression and report write-up
+
 Minyuan Xu: networking, clustering and report write-up
 
 
