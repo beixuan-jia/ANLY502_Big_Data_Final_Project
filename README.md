@@ -74,17 +74,17 @@ Table 3.1.1 Average Tone for all News in 2016, 2006, 2007, and 2015
 
 The following tables, Table 3.1.2 and Table 3.1.3, display the top 10 news that have the most positive and negative tones in 2016. The complete tables with links can be found in the EDA.ipynb file in github.
 
-![](images/3.1.2.jpg)
+![](images/3.1.2.png)
 
 Table 3.1.2 Top 10 news that have the most positive tones in 2016
 
-![](images/3.1.3-2.jpg)
+![](images/3.1.3.jpg)
 
 Table 3.1.3 Top 10 news that have the most negative tones in 2016
 
 The barplot in Fig 3.1.1 shows the overall trend of global news in 2016 sorted by average tone. We can see that most countries’ average tones fall into the range between -5 to 2, and only about 25 among 220 countries have news whose avgtones are positive. The average tones of most countries’ news are slightly negative. 
 
-![](images/3.1.1-2.jpg)
+![](images/3.1.1-2.png)
 
 Fig 3.1.1 Global News Tone Distribution in 2016
 
@@ -92,11 +92,11 @@ The top 20 countries or regions with the most positive average tones are general
 
 The top 20 countries or regions with the most negative average tones are mostly countries at war, such as Afghanistan, Yemen and Syria, probably because news related to wars contain more negative words. 
 
-![](images/3.1.2-2.jpg)
+![](images/3.1.2-2.png)
 
 Fig 3.1.2 Top 20 Countries with the Most Positive Tone News in 2016
 
-![](images/3.1.3.jpg)
+![](images/3.1.3-2.png)
 
 Fig 3.1.3 Top 20 Countries with the Most Negative Tone News in 2016
 
@@ -164,7 +164,7 @@ For the networking part, we tried four different networks.
 
 The first is the network between the top 10 mentioned Actor1 (marked in orange) with the Actor1CountryCode of ‘CHN’ and Actor2 with the Actor2CountryCode of ‘USA’. We removed the actors like 'CHINA', 'UNITED STATES', 'THE US', and 'A US', so that we just analyzed the relationship between people, cities, etc. Then we selected the top 50 mentioned Actor2 (marked in light blue) related to the top 10 Actor1, and drew the networking as Figure 3.3.1.1.
 
-![](images/3.3.1.1.jpg)
+![](images/3.3.1.1.png)
 
 Figure 3.3.1.1 CHN-USA
 
@@ -172,7 +172,7 @@ From this networking, we can see that even though the actor of YINGLI GREEN ENER
 
 The second is the network between the top 10 mentioned Actor1 (marked in orange) with the Actor1CountryCode of 'USA' and Actor2 with the Actor2CountryCode of 'CHN'. We removed the actors like 'CHINA', 'UNITED STATES', and 'THE US', so that we just analyzed the relationship between people, cities, etc. Then we selected the top 50 mentioned Actor2 (marked in light blue) related to the top 10 Actor1, and drew the network as Figure 3.3.1.2. 
 
-![](images/3.3.1.2.jpg)
+![](images/3.3.1.2.png)
 
 Figure 3.3.1.2. USA-CHN
   
@@ -182,13 +182,13 @@ From the above two networking, we can find that even though some actor2s have ju
 
 The third is the network between the QuadClass (marked in orange) and Actor1 with the Actor1CountryCode of 'CHN'. We selected the top 50 mentioned Actor1 (marked in light blue) which have the value of QuadClass, and drew the networking as Figure 3.3.1.3.
 
-![](images/3.3.1.3.jpg)
+![](images/3.3.1.3.png)
 
 Figure 3.3.1.3. QuadClass-CHN
   
 Finally is the network between the QuadClass (marked in orange) and Actor1 with the Actor1CountryCode of 'USA'. We selected the top 50 mentioned Actor1 (marked in light blue) with existing value of QuadClass, and drew the networking as Figure 3.3.1.4.
 
-![](images/3.3.1.4.jpg)
+![](images/3.3.1.4.png)
 
 Figure 3.3.1.4. QuadClass-USA
 
@@ -235,12 +235,6 @@ In terms of future work, since GDELT also maintains another version of the event
 Another possible future work is looking for a variable that is more accurate than "AvgTone" to evaluate the sentiments for news. Although the algorithm that GDELT used to calculate "AvgTone" was unclear, after checking several websites with the largest/lowest average tones, it was reasonable to assume that news with more "positive words" tend to have a higher "AvgTone" value and vice versa. Also, the GDELT dataset did not include news sources, which might greatly affect the average tone of a news, since some media might be biased and partisan instead of neutral. If this is the case, "AvgTone" might not be the most ideal and convincing way to measure international relations, as the EDA section did for comparing US-China and US-Russia relations. For instance, news with the lowest "AvgTone" value had the US as actor1 and UK as actor2; however, the news was about a terrorist who was sentenced in the US and UK, which did not necessarily imply that the US-UK relation was horrible in 2016. Therefore, it is necessary to come up with a new way that is more accurate and effective than “AvgTone” to evaluate news’ sentiments.
 
 ## 5. References
-
-"News Media Coverage of Refugees in 2016: A GDELT Case ...." 22 May. 2017, https://www.aaai.org/ocs/index.php/ICWSM/ICWSM17/paper/download/15778/14897. Accessed 28 Apr. 2020.
-
-"How Computers Can Help Us Track Violent Conflicts ...." 9 Jul. 2013, https://themonkeycage.org/2013/07/how-computers-can-help-us-track-violent-conflicts-including-right-now-in-syria/. Accessed 30 Apr. 2020.
-
-"News Media Coverage of Refugees in 2016: A GDELT Case ...." 22 May. 2017, https://www.aaai.org/ocs/index.php/ICWSM/ICWSM17/paper/download/15778/14897. Accessed 5 May. 2020.
 
 Boudemagh, Moise (2017). News Media Coverage of Refugees in 2016: A GDELT Case Study. AAAI Technical Report WS-17-17: News and Public Opinion. Retrieved from: https://www.aaai.org/ocs/index.php/ICWSM/ICWSM17/paper/download/15778/14897
 
