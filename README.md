@@ -20,4 +20,6 @@ http://data.gdeltproject.org/documentation/CAMEO.Manual.1.1b3.pdf
 Dataset we used:
 * Time Span: All news in GDELT 2.0 Event Database archived in 2016
 * Dimensions: 58 variables x 73,385,698 records
-* What we have done: exploratory data analysis, clustering & modeling to predict tone of each event
+* What we have done: exploratory data analysis, clustering & modeling to predict tone of each event  
+
+For detailed report on our analysis and findings, please refer to 502Report.pdf.
