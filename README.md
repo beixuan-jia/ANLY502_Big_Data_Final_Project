@@ -1,6 +1,6 @@
 # Global News Analysis in 2016
-## Team: Hoyas No1
-## Team Member: Beixuan Jia, Xin Lu, Miao Wang, Minyuan Xu
+### Team: Hoyas No1
+### Team Member: Beixuan Jia, Xin Lu, Miao Wang, Minyuan Xu
 
 ## Executive Summary
 
