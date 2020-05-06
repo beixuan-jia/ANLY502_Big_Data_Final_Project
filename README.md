@@ -102,14 +102,14 @@ Fig 3.1.3 Top 20 Countries with the Most Negative Tone News in 2016
 
 Table 3.1.4 shows the ranking of average tones for all 220 countries or regions in the dataset.  
 
-![](images/3.1.4.jpg)
+![](images/3.1.4.png)
 
 Table 3.1.4 Ranking of Average Tones for All 220 Countries or Regions
 
 The project also explored the average tone of news for certain countries. Fig 3.1.4 showed the mean of average tones for the US and China: US ranked the 198th among all countries, and China ranked the 36th.
 
-![](images/3.1.4-2.jpg)
-![](images/3.1.4-3.jpg)
+![](images/3.1.4-2.png)
+![](images/3.1.4-3.png)
 
 Fig 3.1.4 Mean for the Average Tones of USA and China
 
@@ -133,7 +133,7 @@ As shown in Table 3.1.5, the average tones for news involved in US-Russia is low
 
 Furthermore, the project was able to examine the public opinions regarding certain political figures. For instance, Table 3.1.6 displays the mean of average tones for Donald Trump and Xi Jinping: 
 
-![](images/3.1.6.jpg)
+![](images/3.1.6.png)
 
 Table 3.1.6 Mean of Average Tones for Political Figures
 
@@ -198,31 +198,31 @@ From the last two plots of networking, we can see in figure 3.3.1.3, the nodes o
 
 For the clustering part, 6 features shown in the picture below are chosen for processing, EventCode, QuadClass, GoldsteinScale, NumSources, ActionGeo_Type, ActionGeo_FeatureID.
 
-![](images/3.3.2.1.jpg)
+![](images/3.3.2.1.png)
 
 Figure 3.3.2.1 Schema
 
 Firstly, these 6 features are combined together to become a vector named as features as shown in the table 3.3.2.1.
 
-![](images/3.3.2.1-2.jpg)
+![](images/3.3.2.1-2.png)
 
 Table 3.3.2.1. Feature Vectors
 
 Then, K of 2 to 10 are tested and the cost of computing with each K is plotted to check which is more optimal. From the figure 3.3.2.2, we can see the K of 3 is the best.
 
-![](images/3.3.2.2.jpg)
+![](images/3.3.2.2.png)
 
 Figure 3.3.2.2. Cost of K
 
 Next, a 3-means clustering is fitted on the data to get the predictions, and the data are separated into three equal parts and assigned labels of 0, 1, and 2 according to the feature of AvgTone as in table 3.3.2.2.
 
-![](images/3.3.2.2-2.jpg)
+![](images/3.3.2.2-2.png)
 
 Table 3.3.2.2. Prediction and Label
 
 Finally, we check if the prediction and the label are the same, and get a table 3.3.2.3 of the count of the results.
 
-![](images/3.3.2.3.jpg)
+![](images/3.3.2.3.png)
 
 Table 3.3.2.3. Result
 
