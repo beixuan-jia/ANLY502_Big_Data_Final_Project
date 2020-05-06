@@ -77,7 +77,7 @@ The following tables, Table 3.1.2 and Table 3.1.3, display the top 10 news that 
 
 Table 3.1.2 Top 10 news that have the most positive tones in 2016
 
-![](images/3.1.3.jpg)
+![](images/3.1.3-2.jpg)
 
 Table 3.1.3 Top 10 news that have the most negative tones in 2016
 
@@ -124,6 +124,7 @@ This project used Average Tone to assess the sentiments for news involving 2 cou
 |China (Actor1) vs US (Actor2)|-1.3531860494884245|
 |US (Actor1) vs Russia (Actor2) vs US (Actor2)|-2.9090902048613976|
 |Russia (Actor1) vs US (Actor2)|-2.8030116784788057|
+
 Table 3.1.5 Use Average Tone to Access relationship between countries
 
 As shown in Table 3.1.5, the average tones for news involved in US-Russia is lower than the ones involved in US-China. This might indicate that news mentioned US-Russia contain more negative words than that of news about US-China. 
