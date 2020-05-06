@@ -236,10 +236,6 @@ Another possible future work is looking for a variable that is more accurate tha
 
 # 5. References
 
-All codes are stored on GitHub: https://github.com/cherry90922/FinalProject
-
-# 6. References
-
 "News Media Coverage of Refugees in 2016: A GDELT Case ...." 22 May. 2017, https://www.aaai.org/ocs/index.php/ICWSM/ICWSM17/paper/download/15778/14897. Accessed 28 Apr. 2020.
 
 "How Computers Can Help Us Track Violent Conflicts ...." 9 Jul. 2013, https://themonkeycage.org/2013/07/how-computers-can-help-us-track-violent-conflicts-including-right-now-in-syria/. Accessed 30 Apr. 2020.
@@ -250,7 +246,7 @@ Boudemagh, Moise (2017). News Media Coverage of Refugees in 2016: A GDELT Case S
 
 Robinson, P. 2001. Theorizing the influence of media on world politics models of media influence on foreign policy. European Journal of Communication 16(4):523–544.
 
-# 7. Division of Labor
+# 6. Division of Labor
 
 Beixuan Jia: Exploratory Data Analysis and report write-up
 
